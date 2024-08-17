@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import Header from './Components/Header'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import Slider from './Components/Slider'
 import './App.css'
 
 function App() {
@@ -11,6 +10,7 @@ function App() {
     <>
       <div>
         <Header/>
+        <Slider/>
       </div>
     </>
   )
