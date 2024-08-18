@@ -1,7 +1,8 @@
 import { useState } from 'react'
+import './App.css'
 import Header from './Components/Header'
 import Slider from './Components/Slider'
-import './App.css'
+import ProductionHouse from './Components/ProductionHouse'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,6 +12,7 @@ function App() {
       <div>
         <Header/>
         <Slider/>
+        <ProductionHouse/>
       </div>
     </>
   )
